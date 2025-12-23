@@ -7,3 +7,5 @@ function nestedArray(string $key, $separator = '.'): array
     Arr::set($array, $key, [$last]);
     return $array;
 }
+
+// "parent.parent.parent" => ["parent" => ["parent" => ["parent"] ] ]
